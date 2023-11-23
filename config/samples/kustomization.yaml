@@ -1,0 +1,4 @@
+## Append samples of your project ##
+resources:
+- weatherapp_v1_weatherapi.yaml
+#+kubebuilder:scaffold:manifestskustomizesamples

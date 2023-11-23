@@ -1,0 +1,16 @@
+apiVersion: weatherapp.weather.api/v1
+kind: Weatherapi
+metadata:
+  labels:
+    app.kubernetes.io/name: weatherapi
+    app.kubernetes.io/instance: weatherapi-sample
+    app.kubernetes.io/part-of: weather
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/created-by: weather
+  name: weatherapi-sample4
+spec:
+  # TODO(user): Add fields here
+  location: kodaikanal
+  tempmin: 10
+  tempmax: 18
+
